@@ -1,5 +1,5 @@
 //======================타입 정의======================
-
+export{};   //각 파일을 모듈로 만들어 독립 스코프로 처리
 function sayHello(firstName: string){   //인자값 타입을 String 으로 고정
     console.log('Hello '+ firstName);
 }
