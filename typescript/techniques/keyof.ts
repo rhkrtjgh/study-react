@@ -43,4 +43,3 @@
     //const userGender = getProperty(user,'gender');
 }
 
-
