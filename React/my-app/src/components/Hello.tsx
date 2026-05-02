@@ -12,6 +12,7 @@ const Hello = () =>{
         //div의 onClick에 클릭 시의 콜백 함수를 반환한다
         <div onClick={onClick}>
             {text}
+            <span>Hello React!</span>
         </div>
     );
 }
