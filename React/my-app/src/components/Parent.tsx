@@ -45,6 +45,10 @@ export const Parent = () =>{
     const isFizz = count % 3;
     const isBuzz = count % 5;
 
+    const onBuzzClick =() => {
+        console.log(`Buzz가 클릭되었습니다. isBuzz=${isBuzz}`);
+    }
+
     console.log(`Parent가 다시 그려졌습니다. count=${count}`);
     return(
         <div>
@@ -52,7 +56,7 @@ export const Parent = () =>{
             <p>{`현재카운트: ${count}`}</p>
             <p>
                 <Fizz isFizz={isFizz}></Fizz>
-                <Buzz isBuzz={isBuzz}></Buzz>
+                <Buzz isBuzz={isBuzz} onClick={onBuzzClick}></Buzz>
             </p>
         </div>
     )
