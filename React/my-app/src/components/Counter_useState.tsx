@@ -30,5 +30,13 @@ const Counter = (props: CounterProps) => {
         </div>
     )
 }
+//책에 이부분이 없어 직접 구현,,
+const Parent = () =>{
+    return(
+        <Counter initialValue={0}>
+            
+        </Counter>
+    )
+}
 
-export default Counter;
+export default Parent;
